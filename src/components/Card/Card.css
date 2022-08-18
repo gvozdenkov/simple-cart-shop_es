@@ -41,6 +41,9 @@
   height: 300px;
   width: 300px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__img {
