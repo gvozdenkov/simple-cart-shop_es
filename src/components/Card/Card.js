@@ -1,22 +1,22 @@
 import React from "react";
 import "./Card.css";
 
-function Card() {
+function Card({ product }) {
+  const newTickerStyle = `card__new-ticker ${
+    product.is_new === true ? "" : "card__new-ticker_hidden"
+  }`;
+
   return (
-    <div className="card">
+    <article className="card">
       <div className="card__img-wrap">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/71/71905.png"
-          alt="milk bottle"
-          className="card__img"
-        />
+        <img src={product.image} alt={product.title} className="card__img" />
       </div>
-      <div className="card__new-ticker">new</div>
+      <div className={newTickerStyle}>new</div>
       <div className="card__descriptin">
-        <p className="card__title">Fairlife Whole Milk, 52 oz</p>
-        <p className="card__price">$4.23</p>
+        <p className="card__title">{product.title}</p>
+        <p className="card__price">${product.price}</p>
       </div>
-    </div>
+    </article>
   );
 }
 
