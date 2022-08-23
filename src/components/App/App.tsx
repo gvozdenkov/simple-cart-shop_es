@@ -1,4 +1,5 @@
 import React from "react";
+import CartPopup from "../cart-popup/CartPopup";
 import CartIcon from "../CartIcon";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
@@ -12,6 +13,7 @@ function App() {
       <CartIcon />
       <Main />
       <Footer />
+      <CartPopup />
     </>
   );
 }
