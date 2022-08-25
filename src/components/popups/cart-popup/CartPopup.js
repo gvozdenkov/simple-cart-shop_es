@@ -5,7 +5,7 @@ import OrderList from "../../Order/OrderList/OrderList";
 import Popup from "../popup/Popup";
 import "./CartPopup.css";
 
-function CartPopup() {
+function CartPopup({ isOpen, onClose }) {
   const [inputValue, setInputValue] = useState({
     name: "",
     email: "",
@@ -27,7 +27,7 @@ function CartPopup() {
     console.log("submit this: ", inputValue);
   };
   return (
-    <Popup isOpen={true}>
+    <Popup isOpen={isOpen} onClose={onClose}>
       <OrderList />
       <Form name="order">
         <label className="form__filed">
