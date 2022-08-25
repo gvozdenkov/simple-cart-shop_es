@@ -31,7 +31,7 @@
 }
 
 .popup__close-btn {
-  background: url(../../../../src/images/close_icon.svg) center no-repeat;
+  background: url(../../../src/images/close_icon.svg) center no-repeat;
   background-size: 100%;
   width: 23px;
   height: 23px;

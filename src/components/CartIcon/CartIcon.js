@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { PopupContext } from "../contexts/PopupContext";
+import OrderList from "../Order/OrderList/OrderList";
 import "./CartIcon.css";
 
-function CartIcon({ onClick }) {
+function CartIcon() {
+  let { handlePopup } = useContext(PopupContext);
   return (
     <>
-      <div className="cart-icon" onClick={onClick}></div>
+      <div
+        className="cart-icon"
+        onClick={() => handlePopup(<OrderList />)}
+      ></div>
       <div className="cart-icon__count">7</div>
     </>
   );
