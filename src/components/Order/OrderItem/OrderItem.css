@@ -1,0 +1,65 @@
+.order-item__image {
+  background: url("https://cdn-icons-png.flaticon.com/512/71/71905.png") center
+    no-repeat;
+  background-size: 75%;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.order-item__title {
+  font-weight: bold;
+  max-width: 165px;
+}
+
+.order-item__wrp {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.order-item__control-wrp {
+  display: flex;
+  gap: 20px;
+}
+
+.order-item__amount-wrp {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.order-item__amount {
+  max-width: 20px;
+  margin: 0;
+}
+
+.order-item__sum {
+  margin: 0 auto;
+}
+
+.order-item__remove {
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .order-item__wrp {
+    flex-flow: column;
+    gap: 10px;
+    align-items: start;
+  }
+  .order-item__title {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 350px) {
+  .order-item__image {
+    min-width: 70px;
+    min-height: 70px;
+  }
+
+  .order-item__title {
+    font-size: 14px;
+  }
+}

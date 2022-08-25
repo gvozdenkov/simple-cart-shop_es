@@ -1,0 +1,14 @@
+.svg-button {
+  background: transparent url(../../../images/circle_minus.svg) center no-repeat;
+  background-size: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+
+.svg-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}

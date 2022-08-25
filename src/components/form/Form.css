@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-flow: column;
+}
+
+.form__filed {
+  font-weight: 300;
+}
+
+.form__button {
+  width: 100%;
+  height: 56px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}

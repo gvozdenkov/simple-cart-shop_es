@@ -1,0 +1,9 @@
+.form__input {
+  height: 56px;
+  margin: 6px 0 20px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid black;
+}
