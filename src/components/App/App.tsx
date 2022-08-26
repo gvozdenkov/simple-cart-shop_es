@@ -6,16 +6,19 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import { PopupProvider, PopupContext } from "../contexts/PopupContext";
 import "./App.css";
+import { ShoppingCartProvider } from "../contexts/CartContext";
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
-      <PopupProvider>
-        <CartIcon />
-      </PopupProvider>
+      <ShoppingCartProvider>
+        <Header />
+        <Main />
+        <Footer />
+        <PopupProvider>
+          <CartIcon />
+        </PopupProvider>
+      </ShoppingCartProvider>
     </>
   );
 }
