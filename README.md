@@ -1,3 +1,7 @@
+# Simple shopping one page site Dairyland
+
+[Visit](https://gvozdenkov.github.io/simple-cart-shop/) site Dairyland
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
