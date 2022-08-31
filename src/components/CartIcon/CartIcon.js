@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
+import Cart from "../Cart/Cart";
 import { useShoppingCart } from "../contexts/CartContext";
 import { PopupContext } from "../contexts/PopupContext";
-import OrderList from "../Order/OrderList/OrderList";
 import "./CartIcon.css";
 
 function CartIcon() {
@@ -10,10 +10,7 @@ function CartIcon() {
   if (cartQuantity > 0) {
     return (
       <>
-        <div
-          className="cart-icon"
-          onClick={() => handlePopup(<OrderList />)}
-        ></div>
+        <div className="cart-icon" onClick={() => handlePopup(<Cart />)}></div>
         <div className="cart-icon__count">{cartQuantity}</div>
       </>
     );
