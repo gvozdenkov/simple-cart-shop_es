@@ -1,6 +1,5 @@
 import React from "react";
 import data from "../../../utils/data";
-import { useShoppingCart } from "../../contexts/CartContext";
 import OrderItem from "../OrderItem/OrderItem";
 import "./OrderList.css";
 

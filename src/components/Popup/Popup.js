@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { createPortal } from "react-dom";
 import { PopupContext } from "../contexts/PopupContext";
 import "./Popup.css";

@@ -7,8 +7,7 @@ function Card({ product }) {
     product.is_new === true ? "" : "card__new-ticker_hidden"
   }`;
 
-  const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
-  const quantity = getItemQuantity(product._id);
+  const { increaseCartQuantity } = useShoppingCart();
   return (
     <article className="card" onClick={() => increaseCartQuantity(product._id)}>
       <div className="card__img-wrap">
@@ -18,9 +17,6 @@ function Card({ product }) {
       <div className="card__descriptin">
         <p className="card__title">{product.title}</p>
         <p className="card__price">${product.price}</p>
-        <div>
-          {quantity === 0 ? <p>Not Added</p> : <p>Added {quantity} times</p>}
-        </div>
       </div>
     </article>
   );
