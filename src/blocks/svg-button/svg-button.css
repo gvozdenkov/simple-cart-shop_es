@@ -1,0 +1,28 @@
+.svg-button {
+  background: transparent url(../../images/circle_minus.svg) center no-repeat;
+  background-size: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  width: 20px;
+  height: 20px;
+}
+
+.svg-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.svg-button_plus {
+  background-image: url(../../images/circle_plus.svg);
+}
+
+.svg-button_minus {
+  background-image: url(../../images/circle_minus.svg);
+}
+
+.svg-button_remove {
+  background-image: url(../../images/circle_remove.svg);
+}

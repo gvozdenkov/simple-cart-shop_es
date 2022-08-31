@@ -1,8 +1,16 @@
 import React from "react";
+import data from "../../../utils/data";
+import { useShoppingCart } from "../../contexts/CartContext";
 import OrderItem from "../OrderItem/OrderItem";
 import "./OrderList.css";
 
 function OrderList({ items }) {
+  const { products } = data;
+  const total = items.reduce((total, cartItem) => {
+    const item = products.find((i) => i._id === cartItem.id);
+    return total + item.price * cartItem.quantity;
+  }, 0);
+
   return (
     <section className="order-list">
       <h2 className="order__title">Your order:</h2>
@@ -15,7 +23,7 @@ function OrderList({ items }) {
           );
         })}
       </ul>
-      <p className="order__total">Total: 40$</p>
+      <p className="order__total">Total: {Math.round(total * 100) / 100}$</p>
     </section>
   );
 }

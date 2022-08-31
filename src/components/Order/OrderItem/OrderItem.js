@@ -1,15 +1,13 @@
 import React from "react";
-import SvgButton from "../SvgButton/SvgButton";
 import "./OrderItem.css";
-import minusButton from "../../../images/circle_minus.svg";
-import plusButton from "../../../images/circle_plus.svg";
-import removeButton from "../../../images/circle_remove.svg";
+import "../../../../src/blocks/svg-button/svg-button.css";
 import data from "../../../utils/data";
 import { useShoppingCart } from "../../contexts/CartContext";
 
 function OrderItem({ item }) {
   const { products } = data;
-  const { removeFromCart } = useShoppingCart();
+  const { removeFromCart, increaseCartQuantity, decreaseCartQuantity } =
+    useShoppingCart();
   const elem = products.find((i) => i._id === item.id);
   const elem_image = { backgroundImage: `url(${elem.image})` };
   return (
@@ -19,15 +17,26 @@ function OrderItem({ item }) {
         <p className="order-item__title">{elem.title}</p>
         <div className="order-item__control-wrp">
           <div className="order-item__amount-wrp">
-            <SvgButton width={20} height={20} img={plusButton} />
+            <button
+              className="svg-button svg-button_minus"
+              onClick={() => decreaseCartQuantity(item.id)}
+            ></button>
             <span className="order-item__amount">{item.quantity}</span>
-            <SvgButton width={20} height={20} img={minusButton} />
+            <button
+              className="svg-button svg-button_plus"
+              onClick={() => increaseCartQuantity(item.id)}
+            ></button>
           </div>
-          <span className="order-item__sum">$11.54</span>
+          <span className="order-item__sum">
+            ${Math.round(elem.price * item.quantity * 100) / 100}
+          </span>
         </div>
       </div>
       <div className="order-item__remove">
-        <SvgButton width={20} height={20} img={removeButton} />
+        <button
+          className="svg-button svg-button_remove"
+          onClick={() => removeFromCart(item.id)}
+        ></button>
       </div>
     </>
   );
