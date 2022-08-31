@@ -8,12 +8,18 @@ const Popup = () => {
   if (popup) {
     return createPortal(
       <div className="popup popup_is-open">
-        <div className="popup__content">
-          <button
-            className="popup__close-btn"
-            onClick={() => handlePopup()}
-          ></button>
-          {popupContent}
+        <div className="wrap2">
+          <div className="wrap3">
+            <div className="wrap4">
+              <div className="popup__content">
+                <button
+                  className="popup__close-btn"
+                  onClick={() => handlePopup()}
+                ></button>
+                {popupContent}
+              </div>
+            </div>
+          </div>
         </div>
       </div>,
       document.querySelector("#modal-root")
