@@ -13,7 +13,7 @@ function Card({ product }) {
       <div className="card__img-wrap">
         <img src={product.image} alt={product.title} className="card__img" />
       </div>
-      <div className={newTickerStyle}>new</div>
+      <div className={newTickerStyle}>Nuevo</div>
       <div className="card__descriptin">
         <div className="card__title t754__title t-name t-name_md js-product-name">
           {product.title}

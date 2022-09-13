@@ -12,7 +12,7 @@ function OrderList({ items }) {
 
   return (
     <section className="order-list">
-      <h2 className="order__title">Your order:</h2>
+      <h2 className="order__title">Tu pedido:</h2>
       <ul className="order__items">
         {items.map((item) => {
           return (

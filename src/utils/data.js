@@ -1,256 +1,264 @@
 const data = {
   products: [
     {
-      _id: "5e4c8d1fdc324c98820d4c010d1c1442",
-      title: "Dairy Pure Whole Milk, 1 gal",
+      _id: "8645b0d36f7a4eea850ef29addbe4064",
+      title: "Leche de vaca entera, 1 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 4.23,
       is_new: false,
     },
     {
-      _id: "cf31547558ce41c688dbe91266b3c605",
-      title: "Fairlife Whole Milk, 52 oz",
+      _id: "2d77535498d64ea985e743ce4ef346ff",
+      title: "Fairlife Leche entera, 52 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 3.11,
-      is_new: true,
+      is_new: false,
     },
     {
-      _id: "923ad6d085e547cca713cfa21bd54aa5",
-      title: "Nestle Nesquik Chocolate Lowfat Milk, 16 pk",
+      _id: "42f302f3902e46c8b202e5ef8cc7914a",
+      title: "Nestle Nesquik Leche chocolatada baja en grasa, 16 pecks",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 11.54,
       is_new: false,
     },
     {
-      _id: "ba8f0ab657d44ba48c18285218c92903",
-      title: "Moo-Moo Select IngredientsFat Free Milk, 1 qt",
+      _id: "4c6ccd751bd242caa7f52d002f03a4c3",
+      title: "Moo-Moo Leche desnatada con ingredientes seleccionados, 1 cuarto",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 0.92,
       is_new: false,
     },
     {
-      _id: "1b66f47e5aae4788b15c013772c67bc4",
-      title: "Moo-Moo Select Ingredients Fat Free Milk, 1 gal",
+      _id: "9b298e576e74421888057ceb4b2d477e",
+      title:
+        "Moo-Moo Leche desnatada con ingredientes seleccionados Moo-Moo, 1 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.3,
       is_new: false,
     },
     {
-      _id: "22d5385b7b204605a26e6167ddcb8884",
-      title: "Silk Unsweetened Coconut Milk, 1/2 gal",
+      _id: "b5722e6ac54040318482b73b32c799bc",
+      title: "Silk Leche de coco sin az\u00facar, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.99,
       is_new: false,
     },
     {
-      _id: "f865f1c7276046aab194e1607af82631",
-      title: "Fairlife Fat Free Milk, 52 oz",
+      _id: "0270dad1fabc4d0f82846bef82395ff8",
+      title: "Fairlife Leche desnatada, 52 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 3.13,
       is_new: false,
     },
     {
-      _id: "15f8b058ec6d494fa37e734989b6be96",
-      title: "Horizon Organic DHA Omega-3 Chocolate Lowfat Milk, 12 pk",
+      _id: "f0a054ead7284f879db16a7c250b84c4",
+      title:
+        "Horizon Organic Leche chocolatada baja en grasa enriquecida con omega-3 DHA, 12 pecks",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 11.94,
       is_new: false,
     },
     {
-      _id: "762c227ac4b1477d99546c775e4a337f",
-      title: "Yoo-hoo Chocolate Drink, 3 pk",
+      _id: "fe557037d6dc4c1c98791cbf112dabe9",
+      title: "Yoo-hoo Bebida de chocolate, 3 pecks",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 1,
       is_new: false,
     },
     {
-      _id: "d7dd561ea1ef4c399429ecf47b561985",
-      title: "Moo-Moo Select Ingredients Reduced Fat 2% Milk, 1/2 gal",
+      _id: "1df1a1dd9dc2431fb6412c9e6a21094c",
+      title:
+        "Moo-Moo Leche con ingredientes seleccionadosreducida al 2% en grasa, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 1.33,
       is_new: false,
     },
     {
-      _id: "a03a3d9682f34a12835afef0d019ca58",
-      title: "Borden Whole Milk, 1 gal",
+      _id: "9ce6d3dd4e4c4c2b839c13a0fd05de66",
+      title: "Borden Leche Entera, 1 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 3.53,
       is_new: false,
     },
     {
-      _id: "69addd2fc01c48399bb8a1dec8b73dd5",
-      title: "Caravelle Chaudoc Coconut Milk, 14 oz",
+      _id: "5200a0a0f82b43f1bcabbd582cbc00e8",
+      title: "Caravelle Chaudoc Leche de Coco, 14 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 1.96,
       is_new: false,
     },
     {
-      _id: "17dd000dff8b418ebb4f807b2a86cf12",
-      title: "Horizon Organic Whole Milk, 1/2 gal",
+      _id: "3e01ea67234b46639fe83f639d87fa17",
+      title: "Horizon Organic Leche Entera, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 3.88,
       is_new: false,
     },
     {
-      _id: "083918469c284e588ab7e61309913435",
-      title: "Nesquik Strawberry Lowfat Milk, 8 oz",
+      _id: "5c1a8aa283954eeeb58f9591628244e8",
+      title: "Nesquik Leche baja en grasa con sabor a fresa, 8 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 0.92,
       is_new: false,
     },
     {
-      _id: "f5b07af45bb343fdb662e71d13d5a1a6",
-      title: "Nesquik Vanilla Lowfat Milk, 14 oz",
+      _id: "ffb8158eb523455e98aa10f16c506c72",
+      title: "Nesquik Leche baja en grasa con sabor a vainilla, 14 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 1.34,
       is_new: false,
     },
     {
-      _id: "a80995ea58bf482ba5b03511b56607e1",
-      title: "Moo-Moo Select Ingredients Low Fat 1% Milk, 1 gal",
+      _id: "906cac71b29748c58f41352e41fd250c",
+      title:
+        "Moo-Moo Leche con ingredientes seleccionados 1% baja en grasa, 1 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.24,
       is_new: false,
     },
     {
-      _id: "d8d4eb1e8f2c4c5aac4260a789825d9b",
-      title: "Polar Premium Organic Coconut Milk, 13.5 oz",
+      _id: "9629bf707aa743078ab4d643c7b35dde",
+      title: "Polar Premium Leche de coco org\u00e1nica, 13.5 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.94,
       is_new: false,
     },
     {
-      _id: "3c8d4770f9ae45b2b8d376097bbb7b82",
-      title: "Borden Dutch Chocolate Milk, 1 pt",
+      _id: "bb35c62b40d947f8aaf948d6c02632b3",
+      title: "Borden Leche chocolatada holandesa, 1 pinta",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 1.56,
       is_new: false,
     },
     {
-      _id: "44739b9a28394b4aba819582be39b600",
-      title: "Borden Dutch Chocolate Milk, 1/2 gal",
+      _id: "7a17585151754409a7fcd8ba0c10434f",
+      title: "Borden Leche chocolatada holandesa, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.7,
       is_new: false,
     },
     {
-      _id: "49f482a282694199bd3c804bfaa7a111",
-      title: "Saco Fat-Free Instant Organic Milk, 3.2 oz",
+      _id: "8148af3e1746493fb4d7b379cbaeada1",
+      title: "Saco Leche desnatada instant\u00e1nea org\u00e1nica, 3.2 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.48,
       is_new: false,
     },
     {
-      _id: "7ac1a757921843238c3142603cecb428",
-      title: "Hill Country Fare Reduced Fat 2% Milk, 1 gal",
+      _id: "62b6e724767b4b78b24e66ad0b371322",
+      title: "Hill Country Fare Leche reducida en grasa al 2%, 1 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.32,
       is_new: false,
     },
     {
-      _id: "9b92ce5447dd4f96a5da18e4faa04343",
-      title: "Horizon Organic DHA Omega-3 Vanilla Lowfat Milk, 6 pk",
+      _id: "94dc93d59bd14ac8ab13458c3cf3a54c",
+      title:
+        "Horizon Organic Leche de vainilla baja en grasa enriquecida con omega-3 DHA, 6 pecks",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 6.36,
       is_new: false,
     },
     {
-      _id: "e7980b4608fb4b22b1438ea20d6ed505",
-      title: "Horizon Organic DHA Omega-3 2% Reduced Fat Milk, 1/2 gal",
+      _id: "d38a117d29d54701aaf694fc6e17ac87",
+      title:
+        "Horizon Organic Leche reducida en grasa al 2% enriquecida con omega-3 DHA, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 4.34,
       is_new: false,
     },
     {
-      _id: "73626d06b67846d9b6d57eb68b9cc1ba",
-      title: "Moo-Moo Chocolate Milk, 1/2 gal",
+      _id: "d8f753234de44a62b925774b29cc32c2",
+      title: "Moo-Moo Leche chocolatada, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.7,
       is_new: false,
     },
     {
-      _id: "c1c58cc3b63f46e2acddea2bdb1b2752",
-      title: "A Taste of ThaiLite Coconut Milk, 13.5 oz",
+      _id: "4f77c606313e48bd9423ccc188907506",
+      title: "A Taste of Thai Leche de coco Lite, 13.5 onzas",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 2.29,
       is_new: false,
     },
     {
-      _id: "accdda5e9b614addbc9482b6ef51e70a",
-      title: "Meyenberg Goat Milk, 1/2 gal",
+      _id: "df4af626cc5c488a83b1c0fb175492ef",
+      title: "Meyenberg Leche de cabra, 1/2 gal\u00f3n",
       image:
         "https://store.data-analyst.practicum-services.com/images/tild3564-6334-4930-b639-323763376263__HTB1NWeENVXXXXa4XpXX.jpg",
       price: 7.8,
       is_new: false,
     },
     {
-      _id: "f6a1645b2ea144419a6d492df61ee262",
-      title: "Kerrygold Irish Butter with Canola Oil, 7.5 oz",
+      _id: "a6bb82ef3def4c89b48482a020580179",
+      title: "Kerrygold Mantequilla irlandesa con aceite de canola, 7.5 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 2.8,
       is_new: false,
     },
     {
-      _id: "e322368f1b8e401291bd68d27378e290",
-      title: "Danish Creamery Unsalted European Style Butter, 8 oz",
+      _id: "af928d948cec4b839ed455e5a50cb468",
+      title: "Danish Creamery Mantequilla sin sal, estilo europeo, 8 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 2.97,
       is_new: false,
     },
     {
-      _id: "52e6653c8c674d7ab80ad5df8706409f",
-      title: "Kelapo Ghee Clarified Butter, 13 oz",
+      _id: "5b752ae19eb3482dbfc03dfbf060af32",
+      title: "Kelapo Ghee Mantequilla clarificada, 13 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 8.82,
       is_new: false,
     },
     {
-      _id: "5bd138aed19049b2a215e35ed283ee8d",
-      title: "Land O Lakes Less Sodium Butter with Canola Oil, 15 oz",
+      _id: "dfefdb7cec48414c80d73bd52ac23fe7",
+      title:
+        "Land O Lakes Mantequilla baja en sodio con aceite de canola, 15 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 3.87,
       is_new: false,
     },
     {
-      _id: "1f53db0aba154d9194f63d2ee7c99a1c",
-      title: "California Farms Organic Sweetened Condensed Milk, 14 oz",
+      _id: "62a384a68c3b4e31be4dd07e92b382f5",
+      title:
+        "California Farms Leche org\u00e1nica endulzada condensada, 14 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 3.49,
       is_new: false,
     },
     {
-      _id: "0e3b5a4d835f42eabd7b0205c9d80f33",
-      title: "Lactaid Whole Milk, 96 oz",
+      _id: "b38ea3ba2beb4234b9fca50752e93e4e",
+      title: "Lactaid Leche entera, 96 onzas",
       image:
         "https://i5.walmartimages.com/asr/1342d1f0-34b9-44b2-a6d0-d07930c45562.ec0222cd3a81a5bfb32678158bfc037a.png",
       price: 5.47,

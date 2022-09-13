@@ -7,7 +7,7 @@ function Main() {
   const { products } = data;
   return (
     <main className="main page__section">
-      <h1 className="main__title">High quality, local producers</h1>
+      <h1 className="main__title">Alta calidad, productores locales</h1>
       <section className="cards">
         <CardList products={products} />
       </section>

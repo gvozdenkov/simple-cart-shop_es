@@ -45,5 +45,16 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
+  },
+  "description": "[Visit](https://gvozdenkov.github.io/simple-cart-shop/) site Dairyland",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvozdenkov/simple-cart-shop_es.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gvozdenkov/simple-cart-shop_es/issues"
   }
 }

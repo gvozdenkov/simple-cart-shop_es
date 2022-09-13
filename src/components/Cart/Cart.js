@@ -10,7 +10,7 @@ function Cart() {
       <OrderList items={cartItems} />
       <Form name="order">
         <label className="form__field">
-          Name
+          Nombre
           <input
             type="text"
             name="name"
@@ -19,7 +19,7 @@ function Cart() {
           ></input>
         </label>
         <label className="form__field">
-          Email address
+          Dirección de correo electrónico
           <input
             type="email"
             name="email"
@@ -28,11 +28,11 @@ function Cart() {
           ></input>
         </label>
         <label className="form__field">
-          Telephone number
+          Número de teléfono
           <input type="tel" name="tel" className="form__input" required></input>
         </label>
         <button type="submit" className="form__submit">
-          Check out
+          Comprar
         </button>
       </Form>
     </>
