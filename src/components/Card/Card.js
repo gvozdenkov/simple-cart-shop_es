@@ -15,7 +15,9 @@ function Card({ product }) {
       </div>
       <div className={newTickerStyle}>new</div>
       <div className="card__descriptin">
-        <p className="card__title">{product.title}</p>
+        <div className="card__title t754__title t-name t-name_md js-product-name">
+          {product.title}
+        </div>
         <p className="card__price">${product.price}</p>
       </div>
     </article>
